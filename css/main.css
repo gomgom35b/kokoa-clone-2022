@@ -1,0 +1,47 @@
+header {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 80px 30px;
+  text-align: center;
+}
+
+header h1 {
+  margin-bottom: 30px;
+}
+
+.login input {
+  width: 100%;
+  border: none;
+  padding: 40px 0;
+  margin-bottom: 20px;
+}
+
+.login input:not([type="submit"]) {
+  border-bottom: 3px solid var(--gray);
+  transition: border-color 0.3s ease-in-out;
+}
+
+.login input:focus {
+  border-bottom: 3px solid var(--green);
+}
+
+input::placeholder {
+  color: var(--gray);
+  font-size: var(--legular);
+}
+
+.login input[type="submit"] {
+  font-size: var(--legular);
+  background-color: var(--green);
+  cursor: pointer;
+}
+
+.login a {
+  font-size: var(--small);
+  display: block;
+  text-align: center;
+  text-decoration: none;
+  color: var(--green);
+}
