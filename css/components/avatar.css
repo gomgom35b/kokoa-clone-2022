@@ -1,0 +1,14 @@
+.avatar-main {
+  display: flex;
+  align-items: center;
+  margin-bottom: 30px;
+}
+
+.avatar-main img {
+  border-radius: 30px;
+  margin-right: 10px;
+}
+
+.avatar-main span {
+  font-size: var(--medium);
+}
