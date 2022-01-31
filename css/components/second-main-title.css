@@ -1,0 +1,17 @@
+.second-main-title {
+  background-color: white;
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 20px;
+  left: 0;
+  right: 0;
+  top: 32px;
+  position: fixed;
+}
+
+.second-main-title__middle {
+  font-size: var(--large);
+  margin-left: 40px;
+}
