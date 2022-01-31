@@ -1,11 +1,12 @@
 @import "reset.css";
 @import "main.css";
 @import "friends.css";
-
+@import "chats.css";
 /* Components */
 @import "components/status-bar.css";
 @import "components/main-title.css";
 @import "components/avatar.css";
+@import "components/navbar.css";
 
 @import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&display=swap");
 
