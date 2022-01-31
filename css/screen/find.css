@@ -1,0 +1,108 @@
+.add {
+  padding: 10px;
+  margin-bottom: 30px;
+  display: flex;
+  /* justify-content: space-between; */
+  align-items: center;
+  align-content: space-around;
+  flex-wrap: wrap;
+}
+
+.add-icon {
+  display: flex;
+  flex-direction: column;
+  width: 25%;
+  align-items: center;
+  padding: 20px 50px 50px;
+}
+
+.add-icon i {
+  margin-bottom: 15px;
+}
+
+.add-icon span {
+  font-size: var(--small);
+  color: var(--gray);
+}
+
+.recommend > span {
+  display: block;
+  font-size: var(--small);
+  color: var(--gray);
+  margin-bottom: 30px;
+}
+
+.open-chat__go {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  font-size: var(--small);
+  color: var(--gray);
+  margin-bottom: 20px;
+}
+
+.artists__artist {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 20px;
+}
+
+.artists__artist__name {
+  display: flex;
+  flex-direction: column;
+}
+
+.artists__artist__name__tags {
+  display: flex;
+  flex-direction: column;
+}
+
+.artists__artist__name__tags > span:first-child {
+  font-size: var(--regular);
+}
+
+.artists__artist__name__tags > span:last-child {
+  font-size: var(--small);
+  color: var(--gray);
+}
+
+.artists__atrist__name__fan {
+  width: 150px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  font-size: var(--small);
+  color: var(--gray);
+}
+
+.artists__atrist__name__fan > img {
+  width: 50px;
+  height: 50px;
+  border-radius: 30px;
+}
+
+.artists__atrist__name__fan > span:last-child {
+  color: var(--orange);
+}
+
+.artists__artist__cover {
+  position: relative;
+}
+
+.artists__artist__cover > img {
+  width: 200px;
+  height: 200px;
+  border-radius: 30%;
+}
+
+.artists__artist__cover > span {
+  color: white;
+  font-size: var(--small);
+  padding: 10px;
+  border-radius: 20px;
+  background-color: rgba(37, 37, 37, 0.1);
+  position: absolute;
+  bottom: 20px;
+  left: 110px;
+}
