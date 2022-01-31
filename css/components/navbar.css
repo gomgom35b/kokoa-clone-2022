@@ -1,0 +1,43 @@
+.container {
+  position: relative;
+}
+.navbar {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  align-items: center;
+  background-color: var(--light-gray);
+  padding: 20px;
+  position: fixed;
+  left: 0;
+  right: 0;
+  bottom: 0;
+}
+
+.notice-number {
+  position: relative;
+}
+
+.notice-number > span {
+  position: absolute;
+  right: -15px;
+  top: -5px;
+  background-color: var(--red);
+  padding: 9px 14px;
+  border-radius: 20px;
+  color: white;
+  text-align: center;
+  font-size: var(--exsmall);
+}
+
+.notice-dot {
+  position: relative;
+}
+.notice-dot > span {
+  position: absolute;
+  right: -5px;
+  width: 6px;
+  height: 6px;
+  border-radius: 50%;
+  background-color: var(--red);
+}
