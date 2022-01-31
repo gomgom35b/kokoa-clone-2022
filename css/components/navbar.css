@@ -1,6 +1,3 @@
-.container {
-  position: relative;
-}
 .navbar {
   display: flex;
   flex-direction: row;
@@ -8,10 +5,12 @@
   align-items: center;
   background-color: var(--light-gray);
   padding: 20px;
-  position: fixed;
   left: 0;
   right: 0;
   bottom: 0;
+  position: sticky;
+  overflow-y: scroll;
+  overflow-x: hidden;
 }
 
 .notice-number {
