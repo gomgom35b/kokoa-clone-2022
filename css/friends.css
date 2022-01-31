@@ -4,7 +4,7 @@
   align-items: center;
   background-color: var(--light-gray);
   padding: 10px;
-  margin-bottom: 20px;
+  margin-bottom: 30px;
 }
 
 .friends-display__box {
@@ -53,8 +53,8 @@
 .friends-lists__list__left img {
   width: 240px;
   height: 120px;
-  border-radius: 30px;
-  margin-right: 10px;
+  border-radius: 800px;
+  margin-right: 20px;
 }
 
 .play {
@@ -66,29 +66,4 @@
 
 .play:hover {
   background-color: var(--light-green);
-}
-
-.navbar {
-  display: flex;
-  flex-direction: row;
-  justify-content: space-between;
-  align-items: center;
-  background-color: var(--light-gray);
-  padding: 20px;
-}
-
-.notice {
-  position: relative;
-}
-
-.notice > span {
-  position: absolute;
-  right: -15px;
-  top: -5px;
-  background-color: var(--red);
-  padding: 9px 14px;
-  border-radius: 20px;
-  color: white;
-  text-align: center;
-  font-size: var(--exsmall);
 }
