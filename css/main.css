@@ -18,6 +18,10 @@ header h1 {
   margin-bottom: 20px;
 }
 
+.login input:nth-child(2) {
+  margin-bottom: 60px;
+}
+
 .login input:not([type="submit"]) {
   border-bottom: 3px solid var(--gray);
   transition: border-color 0.3s ease-in-out;
