@@ -1,15 +1,21 @@
 @import "reset.css";
-@import "main.css";
-@import "friends.css";
-@import "chats.css";
-@import "find.css";
-@import "more.css";
+
+/* Screen */
+@import "screen/main.css";
+@import "screen/friends.css";
+@import "screen/chats.css";
+@import "screen/find.css";
+@import "screen/more.css";
+@import "screen/settings.css";
+@import "screen/chat.css";
 
 /* Components */
 @import "components/status-bar.css";
 @import "components/main-title.css";
 @import "components/avatar.css";
 @import "components/navbar.css";
+@import "components/second-main-title.css";
+@import "components/no-mobile.css";
 
 @import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&display=swap");
 
