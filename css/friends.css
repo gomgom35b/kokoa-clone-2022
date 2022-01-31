@@ -5,6 +5,7 @@
   background-color: var(--light-gray);
   padding: 10px;
   margin-bottom: 30px;
+  border-radius: 5px;
 }
 
 .friends-display__box {
