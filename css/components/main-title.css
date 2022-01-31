@@ -2,12 +2,20 @@
   display: flex;
   justify-content: space-between;
   align-items: center;
-  margin-bottom: 20px;
+  margin-bottom: 50px;
 }
 
 .main-title__left {
-  width: 170px;
+  width: 270px;
   display: flex;
   justify-content: space-between;
   text-align: center;
+}
+
+.main-title__left > i {
+  margin-right: 30px;
+}
+
+.main-title__left > i:last-child {
+  margin-right: 0;
 }
